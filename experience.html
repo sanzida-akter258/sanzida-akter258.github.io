@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzida Akter · experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main page wrapper -->
+    <div class="page-wrapper">
+        
+        <!-- Header with logo and theme toggle -->
+        <header class="site-header">
+            <div class="logo"><a href="index.html">SANZIDA AKTER</a></div>
+            <button class="theme-toggle" id="themeToggleBtn">dark/light</button>
+        </header>
+
+        <!-- Navigation menu -->
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="content-pane">
+            <h2>Professional Experience</h2>
+            
+            <!-- EXPERIENCE 1: Graduate Assistant at ISSS -->
+            <!-- Flex container for icon and content side by side -->
+            <div style="display: flex; gap: 1.5rem; margin-bottom: 2.5rem; align-items: flex-start;">
+                <!-- Circular icon container -->
+                <div style="width: 60px; height: 60px; flex-shrink: 0;">
+                    <img src="\files\Screenshot_22.png" alt="GA position" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <!-- Experience details -->
+                <div style="flex: 1;">
+                    <h3 style="margin-top: 0;">Graduate Assistant</h3>
+                    <p><strong>International Student and Scholar Services (ISSS), New Mexico State University</strong> | August 2025 – Present</p>
+                    <ul>
+                        <li>🌐 Managing ISSS Website (<a href="https://isss.nmsu.edu/">https://isss.nmsu.edu/</a>)</li>
+                        <li>👥 Serving as the first point of contact for international students, providing initial guidance.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- EXPERIENCE 2: Content Creator at GSC -->
+            <div style="display: flex; gap: 1.5rem; margin-bottom: 2.5rem; align-items: flex-start;">
+                <div style="width: 60px; height: 60px; flex-shrink: 0;">
+                    <img src="\files\Screenshot_2.png" alt="Content Creation" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="margin-top: 0;">Content Creator</h3>
+                    <p><strong>Graduate Student Council (GSC), New Mexico State University</strong> | March 2025 – Present</p>
+                    <ul>
+                        <li>💻 Hands-on experience in GSC Website Management using Cascade(<a href="https://gsc.nmsu.edu/">https://gsc.nmsu.edu/</a>).</li>
+                        <li>📱 Content editing and Social Media Platform Management for GSC (LinkedIn, Instagram)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- EXPERIENCE 3: Graduate Research Assistant -->
+            <div style="display: flex; gap: 1.5rem; margin-bottom: 2.5rem; align-items: flex-start;">
+                <div style="width: 60px; height: 60px; flex-shrink: 0;">
+                    <img src="\files\Screenshot_1.png" alt="Research" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="margin-top: 0;">Graduate Research Assistant</h3>
+                    <p><strong>Plant and Environmental Sciences, New Mexico State University</strong> | Feb 2025 – Present</p>
+                    <p>🌱 Implementing AI models on agriculteral data</p>
+                </div>
+            </div>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>© 2026 Sanzida Akter</p>
+        </footer>
+    </div>
+
+    <!-- Theme toggle script -->
+    <script>
+        document.getElementById('themeToggleBtn').onclick = function() {
+            document.getElementsByTagName('body')[0].classList.toggle('dark');
+        };
+    </script>
+</body>
+</html>

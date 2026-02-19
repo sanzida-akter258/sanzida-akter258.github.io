@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzida Akter · home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main wrapper - contains all page content with max width 1200px -->
+    <div class="page-wrapper">
+        
+        <!-- Header section with logo and theme toggle button -->
+        <header class="site-header">
+            <div class="logo"><a href="index.html">SANZIDA AKTER</a></div>
+            <button class="theme-toggle" id="themeToggleBtn">dark/light</button>
+        </header>
+
+        <!-- Navigation menu - links to all pages of the website -->
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area with blurred background effect -->
+        <main class="content-pane">
+            <!-- Bio section with profile photo and text side by side -->
+            <div class="bio-wrap">
+                <!-- Profile photo container - circular crop with white border -->
+                <div class="bio-pic">
+                    <img src="\files\Sea_beach.jpeg" alt="Sanzida Akter Profile Photo">
+                </div>
+                <!-- Bio text content -->
+                <div class="bio-text">
+                    <h2>Bio</h2>
+                    <p>My name is Sanzida Akter, and I am a doctoral student in Computer Science at New Mexico State University. I am currently engaged in research focused on machine learning and deep learning, with applications in the fields of cybersecurity and agriculture.</p>
+                    <p>Along with my studies, I am a very social person who enjoys learning about different cultures and languages. I love to eat and try various cuisines.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer with copyright information -->
+        <footer class="site-footer">
+            <p>© 2026 Sanzida Akter</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for dark/light theme toggle -->
+    <script>
+        document.getElementById('themeToggleBtn').onclick = function() {
+            document.getElementsByTagName('body')[0].classList.toggle('dark');
+        };
+    </script>
+</body>
+</html>

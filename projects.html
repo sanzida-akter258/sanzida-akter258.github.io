@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzida Akter · projects</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Card styling for project items - includes hover effect */
+        .card {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        /* Lift effect on hover for interactive cards */
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 30px -8px #02061770;
+        }
+        
+        /* Remove underlines from all links inside cards */
+        .card * {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main wrapper - contains all page content -->
+    <div class="page-wrapper">
+        
+        <!-- Header with logo and theme toggle -->
+        <header class="site-header">
+            <div class="logo"><a href="index.html">SANZIDA AKTER</a></div>
+            <button class="theme-toggle" id="themeToggleBtn">dark/light</button>
+        </header>
+
+        <!-- Navigation menu - consistent across all pages -->
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="content-pane">
+            <h2>Featured Projects</h2>
+            
+            <!-- Grid container for project cards - responsive layout -->
+            <div class="card-grid">
+                
+                <!-- PROJECT 1: Reinforcement Learning video demo -->
+                <a href="https://youtu.be/OWDGkUWKLHw" target="_blank" class="card">
+                    <iframe width="100%" height="200" 
+                        src="https://www.youtube.com/embed/OWDGkUWKLHw" 
+                        title="Solving grid navigation with Reinforcement Learning algorithms"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>Solving grid navigation with Reinforcement Learning algorithms</h3>
+                </a>
+
+                <!-- PROJECT 2: CVItae - Resume builder website -->
+                <a href="https://github.com/sanzida-akter258/Learner-s-Point" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&auto=format&fit=crop" alt="CVItae - Resume Builder Website" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>CVitae</h3>
+                    <p><strong>Technologies:</strong> Javascript, HTML, PHP, CSS, MySQL</p>
+                    <p>A website where a person can make a standard CV, can upload vlogs, photos and videos. People can easily understand a person's qualifications by looking up their profile on the website.</p>
+                </a>
+
+                <!-- PROJECT 3: Learner's Point - Online education platform -->
+                <a href="https://github.com/sanzida-akter258/Learner-s-Point" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=400&auto=format&fit=crop" alt="Learner's Point - Online Education Platform" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>Learner's Point</h3>
+                    <p><strong>Technologies:</strong> C#, MySQL, HTML, CSS, .NET Framework</p>
+                    <p>This is a web-based project with .net framework. It is basically an online school for people who are underprivileged and live far away from cities. It is for their basic education.</p>
+                </a>
+
+                <!-- PROJECT 4: Project SANZI - Robot website -->
+                <a href="https://github.com/sanzida-akter258/Project-SANZI-Website/tree/main" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&auto=format&fit=crop" alt="Project SANZI - Robot Website" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>Project SANZI Website</h3>
+                    <p><strong>Technologies:</strong> PHP, MySQL, HTML, CSS</p>
+                    <p>This website is about our robot SANZI (underdevelopment). People can get to know about the robot and can purchase, upgrade, service the robot or its parts.</p>
+                </a>
+
+                <!-- PROJECT 5: Exchanger - Electronics exchange platform -->
+                <a href="https://github.com/sanzida-akter258/Exchanger" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&auto=format&fit=crop" alt="Exchanger - Electronics Exchange Platform" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>Exchanger</h3>
+                    <p><strong>Technologies:</strong> Java</p>
+                    <p>With that you can easily exchange your electronics with others. We can use it for business purposes. This system is mainly made with Java.</p>
+                </a>
+
+                <!-- PROJECT 6: Smart Healthcare System -->
+                <a href="https://github.com/sanzida-akter258/Smart-Healthcare-System" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&auto=format&fit=crop" alt="Smart Healthcare System - Digital Healthcare" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>Smart Healthcare System</h3>
+                    <p><strong>Technologies:</strong> C</p>
+                    <p>A system where a person can get healthcare services in a digital way by sitting at home.</p>
+                </a>
+
+                <!-- PROJECT 7: Custom Supervision - Import-Export management -->
+                <a href="https://github.com/sanzida-akter258/Custom-Supervision" target="_blank" class="card">
+                    <img src="https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?w=400&auto=format&fit=crop" alt="Custom Supervision - Import-Export Management" style="width:100%; height:180px; object-fit:cover;">
+                    <h3>Custom Supervision</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS, PHP, MySQL</p>
+                    <p>This project is about a website where you can manage the whole Import-Export system.</p>
+                </a>
+            </div>
+        </main>
+
+        <!-- Footer with copyright -->
+        <footer class="site-footer">
+            <p>© 2026 Sanzida Akter</p>
+        </footer>
+    </div>
+
+    <!-- Theme toggle JavaScript -->
+    <script>
+        document.getElementById('themeToggleBtn').onclick = function() {
+            document.getElementsByTagName('body')[0].classList.toggle('dark');
+        };
+    </script>
+</body>
+</html>

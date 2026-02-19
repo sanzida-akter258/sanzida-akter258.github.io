@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzida Akter · activities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main page wrapper -->
+    <div class="page-wrapper">
+        
+        <!-- Header with logo and theme toggle -->
+        <header class="site-header">
+            <div class="logo"><a href="index.html">SANZIDA AKTER</a></div>
+            <button class="theme-toggle" id="themeToggleBtn">dark/light</button>
+        </header>
+
+        <!-- Navigation menu -->
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="content-pane">
+            <h2>Extra-Curricular Activities & Leadership</h2>
+            
+            <!-- LEADERSHIP SECTION -->
+            <div style="margin-bottom: 2.5rem;">
+                <h3 style="color: #2563eb; padding-bottom: 0.5rem; margin-bottom: 1.2rem;">👑 Leadership</h3>
+                
+                <!-- Leadership item 1: GSC Content Creator -->
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                    <div style="font-size: 2rem; min-width: 50px;">👥</div>
+                    <div>
+                        <p style="margin: 0;"><strong>Content Creator</strong> at <strong>Graduate Student Council (GSC)</strong>, New Mexico State University.</p>
+                    </div>
+                </div>
+                
+                <!-- Leadership item 2: Cyber Security Team Leader -->
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                    <div style="font-size: 2rem; min-width: 50px;">🔐</div>
+                    <div>
+                        <p style="margin: 0;"><strong>Former Leader</strong> at Cyber Security Researcher Team, Advanced Machine Learning lab, BUBT</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TRAINING SECTION with floating image on right -->
+            <div style="margin-bottom: 2.5rem; overflow: auto;">
+                <!-- Floating image - text wraps around it -->
+                <img src="\files\Screenshot_2.png" alt="Training" 
+                     style="float: right; width: 200px; margin-left: 1.5rem; margin-bottom: 1rem; border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                
+                <h3 style="color: #2563eb; padding-bottom: 0.5rem; margin-bottom: 1.2rem;">📚 Training</h3>
+                
+                <p><strong>Information-Technology Engineers Examination (ITEE)</strong></p>
+                
+            </div>
+            
+            <!-- CONTENT WRITING SECTION -->
+            <div style="margin-bottom: 2.5rem;">
+                <h3 style="color: #2563eb; padding-bottom: 0.5rem; margin-bottom: 1.2rem;">✍️ Former Content Writer</h3>
+                
+                <!-- IEEE Women in Engineering -->
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                    
+                    <div>
+                        <p style="margin: 0;"><strong>IEEE Women in Engineering</strong></p>
+                    </div>
+                </div>
+                
+                <!-- IEEE Biometrics Council -->
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                   
+                    <div>
+                        <p style="margin: 0;"><strong>IEEE Biometrics Council</strong>, BUBT SB Chapter.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LANGUAGES SECTION with pill-style tags -->
+            <div style="margin-bottom: 1rem;">
+                <h3 style="color: #2563eb; padding-bottom: 0.5rem; margin-bottom: 1.2rem;">🗣️ Languages</h3>
+                
+                <!-- Language tags container - flex wrap for responsive -->
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+                    <!-- English language tag -->
+                    <div style="display: flex; align-items: center; gap: 0.8rem; background: #f1f5f9; padding: 0.5rem 1.2rem; border-radius: 50px;">
+                        
+                        <span><strong>English</strong></span>
+                    </div>
+                    <!-- Bengali language tag -->
+                    <div style="display: flex; align-items: center; gap: 0.8rem; background: #f1f5f9; padding: 0.5rem 1.2rem; border-radius: 50px;">
+                        
+                        <span><strong>Bengali</strong></span>
+                    </div>
+                    <!-- Hindi language tag -->
+                    <div style="display: flex; align-items: center; gap: 0.8rem; background: #f1f5f9; padding: 0.5rem 1.2rem; border-radius: 50px;">
+                        
+                        <span><strong>Hindi</strong></span>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>© 2026 Sanzida Akter</p>
+        </footer>
+    </div>
+
+    <!-- Theme toggle script -->
+    <script>
+        document.getElementById('themeToggleBtn').onclick = function() {
+            document.getElementsByTagName('body')[0].classList.toggle('dark');
+        };
+    </script>
+</body>
+</html>

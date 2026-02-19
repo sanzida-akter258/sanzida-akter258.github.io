@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzida Akter · contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Main page wrapper -->
+    <div class="page-wrapper">
+        
+        <!-- Header with logo and theme toggle -->
+        <header class="site-header">
+            <div class="logo"><a href="index.html">SANZIDA AKTER</a></div>
+            <button class="theme-toggle" id="themeToggleBtn">dark/light</button>
+        </header>
+
+        <!-- Navigation menu -->
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="content-pane">
+            <h2>Contact</h2>
+            
+            <!-- Flex container for photo and contact info side by side -->
+            <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+                
+                <!-- LEFT COLUMN: Profile photo -->
+                <div style="width: 200px; flex-shrink: 0;">
+                    <!-- Fixed the border-radius syntax error -->
+                    <img src="\files\Sea_beach.jpeg" alt="Sanzida Akter" style="width: 100%; border-radius: 12px; border: 4px solid white; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                </div>
+                
+                <!-- RIGHT COLUMN: Contact information -->
+                <div style="flex: 1; min-width: 250px;">
+                    
+                    <!-- EMAIL with envelope icon -->
+                    <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem;">
+                        <i class="fas fa-envelope" style="color: #2563eb; width: 24px; font-size: 1.2rem;"></i>
+                        <a href="mailto:sanzida@nmsu.edu" style="color: #2563eb; text-decoration: none;">sanzida@nmsu.edu</a>
+                    </div>
+                    
+                    <!-- SOCIAL MEDIA LINKS - vertical stack -->
+                    <div style="display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem;">
+                        
+                        <!-- GitHub -->
+                        <a href="https://github.com/sanzida-akter258" target="_blank" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; color: #1e293b;">
+                            <i class="fab fa-github" style="color: #2563eb; width: 24px; font-size: 1.3rem;"></i>
+                            <span>GitHub</span>
+                        </a>
+                        
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/sanzida-akter258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; color: #1e293b;">
+                            <i class="fab fa-linkedin" style="color: #2563eb; width: 24px; font-size: 1.3rem;"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/sanzida_sun_g" target="_blank" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; color: #1e293b;">
+                            <i class="fab fa-instagram" style="color: #2563eb; width: 24px; font-size: 1.3rem;"></i>
+                            <span>Instagram</span>
+                        </a>
+                        
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/sanzidaakterofficial" target="_blank" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; color: #1e293b;">
+                            <i class="fab fa-facebook" style="color: #2563eb; width: 24px; font-size: 1.3rem;"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    
+                    <!-- LOCATION - subtle gray styling -->
+                    <div style="margin-top: 1rem; color: #64748b; font-size: 0.9rem;">
+                        <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.3rem;">
+                            <i class="fas fa-map-marker-alt" style="color: #94a3b8; width: 24px;"></i>
+                            <span>Las Cruces, New Mexico, USA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>© 2026 Sanzida Akter</p>
+        </footer>
+    </div>
+
+    <!-- Theme toggle script -->
+    <script>
+        document.getElementById('themeToggleBtn').onclick = function() {
+            document.getElementsByTagName('body')[0].classList.toggle('dark');
+        };
+    </script>
+</body>
+</html>
